@@ -95,6 +95,7 @@ end
 
 local __DEBUG = nil
 
+--[=[
 local function __dbg(env)
   local function __dbg_print(x)
     local buf = {}
@@ -203,6 +204,7 @@ end
 
 --__DEBUG = 3
 --__dbg {N=32,A=2}
+]=]
 
 if not __DEBUG then
   return fft

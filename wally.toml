@@ -1,0 +1,11 @@
+[package]
+name = "polychromatist/fftfy"
+version = "0.1.1"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+description = "fft for roblox"
+authors = ["polychromatist <polychromatist@proton.me>"]
+license = "Apache-2.0"
+exclude = ["example", "vendor"]
+
+[dependencies]
